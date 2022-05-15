@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+body{
+    background-color: black;
+}
+
+.bgimage{
+    height: 100vh;
+    width: 100vw;
+    background: url('Stock Images/web\ bg\ final.png');
+    opacity: .3;
+    background-size: cover;
+    
+}
+
+
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* align-content: center; */
+    position:fixed;
+    top: 22vh;
+    right: 83vh;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.userimg img{
+    height: 80px;
+    width: 80px;
+    border: 4px solid #3a3a3a;
+    border-radius: 100px;
+    margin: 36px 60px 0px 61px;
+}
+
+.login-text{
+    font-size: 30px;
+    font-weight: bold;
+    margin: -2px 60px 13px 61px;
+    color: #3a3a3a;
+}
+
+.ep{
+    color: #3a3a3a;
+    margin: 12px 0px 15px;
+    font-size: 18px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 2px solid rgb(181, 181, 181);
+    width: 223px;
+    padding: 0px 0px 0px 5px;
+}
+.ep:focus{
+    text-decoration: none;
+    /* border: none; */
+    outline: none;
+    /* background-color: red; */
+}
+
+.lgnbtn{
+    padding: 12px 0px 0px 0px;
+    margin: 9px 0px 18px 0px;
+}
+
+.lgnbtn a{
+    color: #3a3a3a;
+    text-decoration: none;
+    padding: 4px 92px;
+    border: 2px solid #3a3a3a;
+
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    /* transition-delay: .2s; */
+    transition-duration: .09s;
+}
+
+.lgnbtn a:hover{
+    background-color: #3a3a3a;
+    color: white;
+
+}
+
+.blue-links{
+    margin: -2px 0px 3px 0px;
+    font-size: 15.5px;
+}
+
+#frgtpass{
+    margin: 10px 0px 0px 0px;
+}
+
+.blue-links span{
+    color: #4444c8;
+    cursor: pointer;
+}
+
+
+#frgt-Pass{
+    cursor: pointer;
+}
+
+#signup{
+    cursor: pointer;
+}
